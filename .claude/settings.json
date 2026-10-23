@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --test:*)",
+      "Bash(npm test:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git fetch origin:*)",
+      "Bash(git switch --detach:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(gh issue view:*)"
+    ],
+    "deny": ["Bash(git push:*)", "Bash(git commit:*)", "Bash(gh pr merge:*)", "Bash(gh pr review:*)"]
+  }
+}
